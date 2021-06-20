@@ -1,0 +1,11 @@
+{
+  "name": "exercise-3",
+  "version": "1.0.0",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "performance-now": "^2.1.0"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}

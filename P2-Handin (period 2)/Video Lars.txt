@@ -1,0 +1,32 @@
+https://www.youtube.com/watch?v=vRpvhw12fqc'
+
+
+Intro (2 min.)
+https://www.youtube.com/watch?v=7YlO58NPr-U 
+Dependencies
+https://www.youtube.com/watch?v=7YlO58NPr-U&t=131s 
+Database Connector
+https://www.youtube.com/watch?v=7YlO58NPr-U&t=163s 
+Update bin/www.ts
+https://www.youtube.com/watch?v=7YlO58NPr-U&t=297s 
+Update IFriend
+https://www.youtube.com/watch?v=7YlO58NPr-U&t=465s 
+Test data for development
+https://www.youtube.com/watch?v=7YlO58NPr-U&t=504s 
+Delete DummyDB-Facade.ts
+https://www.youtube.com/watch?v=7YlO58NPr-U&t=693s 
+Add friendFacade.ts
+https://www.youtube.com/watch?v=7YlO58NPr-U&t=718s 
+Update the Auth-middleware
+https://www.youtube.com/watch?v=7YlO58NPr-U&t=1085s 
+Add/update the logger.ts middleware
+https://www.youtube.com/watch?v=7YlO58NPr-U&t=1312s 
+Delete the original friendroutes
+https://www.youtube.com/watch?v=7YlO58NPr-U&t=1411s 
+Add one of the two friendRoutes
+https://www.youtube.com/watch?v=7YlO58NPr-U&t=1411s 
+The easy one
+https://www.youtube.com/watch?v=7YlO58NPr-U&t=1439s 
+The one with authentication
+https://www.youtube.com/watch?v=7YlO58NPr-U&t=1573s 
+

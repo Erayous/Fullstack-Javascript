@@ -1,0 +1,3 @@
+Til næste lektion. (Make it modular).
+
+learnyounode - CMD
