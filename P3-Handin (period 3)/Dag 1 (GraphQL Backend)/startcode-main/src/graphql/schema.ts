@@ -28,42 +28,14 @@ const typeDefs = `#graphql
 
  
     """
-    Queries available for Friends
+    Queries
     """
- 
     type Query {
-        """
-        Returns all details for all Friends (Requires admin role)
-        
-        """
         getAllFriends : [Friend]!
-        
-        
-        """
-        Returns the logged in user (Login is required)
-        """
         getFriend : Friend
-
-        
-        """
-        This fetch the data from my own REST API
-        """
         getAllFriendsProxy: [Friend]!
-
-        
-        """
-        Get Friend by Email (Requires admin role)
-        """
         getFriendByEmail (email : String!) : Friend
-
-        """
-        Get Friend by ID (Requires admin role)
-        """
         getFriendById (id : String!) : Friend
-
-        """
-        Get Game Area
-        """
         getGameArea: GameArea
         
     }
@@ -86,53 +58,17 @@ const typeDefs = `#graphql
         latitude: Float!
     }
   
-   
-   
- 
-
-  
-   
     """
-    Mutations available for Friends
+    Mutations 
     """
 
     type Mutation {
-        """
-        Allows anyone (non authenticated users) to create a new friend
-        """
         createFriend(input: FriendInput): Friend
-
-        
-        """
-        Edits a friend (Edits the logged in user/admin)
-        """
         editFriend(input: FriendEditInput): Friend
-
-
-        """
-        Delete a friend(Requires admin Role)
-        """
         deleteFriend(email : String) : Boolean
-
-
-        """
-        Admin can edit everyone (Requires admin Role)
-        """
         adminEditFriend(input: FriendEditInput): Friend
-       
-
-       """
-       Adds the users position
-       """
-       addPosition(input: PositionInput): Boolean!
-
-
-        """
-        Find friends nearby
-        """
+        addPosition(input: PositionInput): Boolean!
         nearbyFriends(input: PositionInput, distance:Float):[Position]!
-
-       
     }
 `;
 
